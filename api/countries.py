@@ -25,11 +25,11 @@ class handler(BaseHTTPRequestHandler):
             if api_response.status_code == 200:
                 # Assuming the first result is the most relevant
                 country_info = api_response.json()[0]  
-                capital = country_info['capital'][0] if 'capital' in country_info else 'No capital found'
-                response = f'The capital of {country} is {capital}'
+                capital = country_info['capital'][0] if 'capital' in country_info else 'No capital found.'
+                response = f'The capital of {country} is {capital}.'
             
             else:
-                response = f'Country not found: {country}'
+                response = f'Country not found: {country}.'
 
         # Check to see if capital parameter is in the query
         elif 'capital' in query_params:
@@ -43,9 +43,9 @@ class handler(BaseHTTPRequestHandler):
             if api_response.status_code == 200:
                 country_info = api_response.json()[0] 
                 country = country_info['name']['common']
-                response = f'{capital} is the capital of {country}'
+                response = f'{capital} is the capital of {country}.'
             else:
-                response = f'No country found with capital: {capital}'
+                response = f'No country found with capital: {capital}.'
 
         else:
             response = 'Invalid query. Please specify a country or a capital.'
