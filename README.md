@@ -27,3 +27,4 @@ Implementation of serverless functions on [Vercel](https://vercel.com/) handling
 
 ### Log
 - Mon: started project, created query for capital and country.
+- Tues: added deployed link, fixed example query urls
