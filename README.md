@@ -16,11 +16,11 @@ Implementation of serverless functions on [Vercel](https://vercel.com/) handling
 ## Setup
 
 ### How to initialize/run your application
-- query capitals at: https://serverless-hspvgocl3-lana-zumbrunns-projects.vercel.app/api/countries?capital=YOUR_QUERY_CITY
-    - example: https://serverless-hspvgocl3-lana-zumbrunns-projects.vercel.app/api/countries?capital=London
+- query capitals at: https://serverless-git-main-lana-zumbrunns-projects.vercel.app/api/countries?capital=YOUR_QUERY_CITY
+    - example: https://serverless-git-main-lana-zumbrunns-projects.vercel.app/api/countries?capital=London
 
-- query countries at: https://serverless-hspvgocl3-lana-zumbrunns-projects.vercel.app/api/countries?country=YOUR_QUERY_COUNTRY
-    - example: https://serverless-hspvgocl3-lana-zumbrunns-projects.vercel.app/api/countries?country=Peru
+- query countries at: https://serverless-git-main-lana-zumbrunns-projects.vercel.app/api/countries?country=YOUR_QUERY_COUNTRY
+    - example: https://serverless-git-main-lana-zumbrunns-projects.vercel.app/api/countries?country=Peru
 
 ### Tests
 - N/A
